@@ -1,8 +1,8 @@
 # Structure initiale
 bibliotheque = []
 
-def ajouter_livre(titre, auteur):
-    bibliotheque.append({"titre": titre, "auteur": auteur})
+def ajouter_livre(titre, auteur, année):
+    bibliotheque.append({"titre": titre, "auteur": auteur, "année": année})
     return bibliotheque
 
 def afficher_livres():
